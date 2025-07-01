@@ -17,7 +17,6 @@
     <TerminalCard>
       <TerminalTitle text="¿Qué es la metrología y por qué es fundamental en sistemas automatizados como un vivero inteligente?" />
       <TerminalParagraph text="La metrología es la ciencia encargada del estudio de las mediciones y una disciplina aplicada en diversos campos, además se encarga en mediciones de su estandarización y su aplicación práctica para obtener datos confiables y comparables. Esta disciplina no solo establece cómo medir, sino que garantiza que las mediciones sean coherentes y trazables a patrones o constantes internacionales." />
-      <TerminalParagraph text="En nuestro caso \"un vivero inteligente\", donde el control de variables como la humedad del suelo, la temperatura, la iluminación, la humedad ambienta y la calidad del aire es esencial para el desarrollo óptimo de las plantas, la metrología desempeña un papel central. Los sistemas automatizados dependen de sensores para tomar decisiones en tiempo real. Si estas mediciones no son precisas ni confiables, todo el sistema pierde eficiencia y puede comprometer la salud de los cultivos. Por ello, la metrología permite que los sensores sean calibrados correctamente, que los datos recogidos tengan validez técnica y que las acciones automáticas del sistema (como el riego o la ventilación) respondan a condiciones reales y verificables." />
     </TerminalCard>
   </TerminalGrid>
 
