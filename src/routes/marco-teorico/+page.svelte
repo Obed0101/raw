@@ -41,17 +41,6 @@
     </TerminalCard>
   </TerminalGrid>
 
-  <TerminalGrid>
-    <TerminalCard>
-      <TerminalTitle text="Normas aplicadas al proyecto" />
-      <TerminalList items={[
-        'ISO/IEC 17025: Calibración de sensores en laboratorio acreditado con trazabilidad SI.',
-        'ISO 9847: Calibración en campo bajo condiciones reales.',
-        'OIML D11: Seguridad y condiciones ambientales para instrumentos electrónicos.',
-        'NIST Handbook 44: Tolerancias y precisión en sensores.',
-        'ISO/IEC 25010: Calidad, fiabilidad y usabilidad del software del sistema.'
-      ]} />
-    </TerminalCard>
-  </TerminalGrid>
+  
 
   <TerminalGrid>
