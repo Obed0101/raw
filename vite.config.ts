@@ -9,4 +9,18 @@ export default defineConfig({
 			plugins: [],
 		},
 	},
+	server: {
+		allowedHosts: [
+			'raw.beiton.cloud',
+			'localhost',
+			'127.0.0.1'
+		]
+	},
+	preview: {
+		allowedHosts: [
+			'raw.beiton.cloud',
+			'localhost',
+			'127.0.0.1'
+		]
+	}
 });
