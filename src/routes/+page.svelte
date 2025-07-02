@@ -1,35 +1,40 @@
 <script>
+
   //here we go the data mock of widgets and grpahs
   // now the start continue with the grpahs and widgets
+
+  import {
+    TerminalContainer,
+    TerminalHeader,
+    TerminalGrid, // Aunque no se use extensivamente para el contenido principal, se mantiene la importación del ejemplo
+    StatCard, // Importaciones del ejemplo, no usadas para el contenido HTML
+    ChartCard, // ...
+    DateTime,
+    TerminalTitle,
+    TerminalParagraph,
+    TerminalCard,
+    TerminalButton, // ...
+    ProgressBar, // ...
+    TerminalBadge, // ...
+    TerminalTable, // ...
+    TerminalList,
+    TerminalImage, // ...
+    TerminalModal, // ...
+    TerminalInput, // ...
+    Pagination // ...
+  } from '../components';
+
 </script>
 
-<div class="terminal-container">
-  <div class="terminal-header">
-    RAW <span class="terminal-cursor"></span>
-    <div class="terminal-meta"></div>
-  </div>
+<TerminalContainer>
+<TerminalHeader title="RAW" showCursor />
+<TerminalGrid>
+  <StatCard label="Estadistica Prueba" value="100" />
+  <StatCard label="Estadistica Prueba" value="100" />
+</TerminalGrid>
 
-  <div class="terminal-grid">
-    <div class="terminal-card">
-      <div class="terminal-stat">
-        <div class="terminal-stat-label">Estadistica Prueba</div>
-        <div class="terminal-stat-value">100</div>
-      </div>
-    </div>
-    <div class="terminal-card">
-      <div class="terminal-stat">
-        <div class="terminal-stat-label">Estadistica Prueba</div>
-        <div class="terminal-stat-value">100</div>
-      </div>
-    </div>
-  </div>
+<TerminalGrid>
+  <ChartCard title="Gráfico de prueba" chartId="chart" />
+</TerminalGrid>
 
-  <div class="terminal-grid"> 
-      <div class="terminal-card">
-        <div class="terminal-graph">
-          <div class="terminal-graph-title">Gráfico de prueba</div>
-          <div id="chart"></div>
-        </div>
-      </div>
-    </div>
-</div>
+</TerminalContainer>
