@@ -29,8 +29,8 @@
 <TerminalContainer>
 <TerminalHeader title="RAW" showCursor />
 <TerminalGrid>
-  <StatCard label="Estadistica Prueba" value="100" />
-  <StatCard label="Estadistica Prueba" value="100" />
+  <StatCard label="Estadistica New" value="100" />
+  <StatCard label="Estadistica New" value="100" />
 </TerminalGrid>
 
 <TerminalGrid>
