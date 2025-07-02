@@ -13,8 +13,7 @@
 </script>
 
 <div 
-  class="terminal-spinner"
-  class:terminal-spinner--{size}
+  class="terminal-spinner terminal-spinner--{size}"
   class:terminal-spinner--inline={inline}
 >
   <div class="terminal-spinner-animation">

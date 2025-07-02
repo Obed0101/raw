@@ -1,26 +1,26 @@
 <script>
-  import TerminalContainer from '$lib/components/TerminalContainer.svelte';
-  import TerminalGrid from '$lib/components/TerminalGrid.svelte';
-  import TerminalCard from '$lib/components/TerminalCard.svelte';
-  import TerminalButton from '$lib/components/TerminalButton.svelte';
-  import TerminalInput from '$lib/components/TerminalInput.svelte';
-  import TerminalTitle from '$lib/components/TerminalTitle.svelte';
-  import TerminalHeader from '$lib/components/TerminalHeader.svelte';
-  import TerminalTable from '$lib/components/TerminalTable.svelte';
-  import TerminalList from '$lib/components/TerminalList.svelte';
-  import TerminalBadge from '$lib/components/TerminalBadge.svelte';
-  import TerminalModal from '$lib/components/TerminalModal.svelte';
+  import TerminalContainer from '../../components/TerminalContainer.svelte';
+  import TerminalGrid from '../../components/TerminalGrid.svelte';
+  import TerminalCard from '../../components/TerminalCard.svelte';
+  import TerminalButton from '../../components/TerminalButton.svelte';
+  import TerminalInput from '../../components/TerminalInput.svelte';
+  import TerminalTitle from '../../components/TerminalTitle.svelte';
+  import TerminalHeader from '../../components/TerminalHeader.svelte';
+  import TerminalTable from '../../components/TerminalTable.svelte';
+  import TerminalList from '../../components/TerminalList.svelte';
+  import TerminalBadge from '../../components/TerminalBadge.svelte';
+  import TerminalModal from '../../components/TerminalModal.svelte';
   
   // Nuevos componentes
-  import TerminalAlert from '$lib/components/TerminalAlert.svelte';
-  import TerminalTabs from '$lib/components/TerminalTabs.svelte';
-  import TerminalSelect from '$lib/components/TerminalSelect.svelte';
-  import TerminalTextarea from '$lib/components/TerminalTextarea.svelte';
-  import TerminalCheckbox from '$lib/components/TerminalCheckbox.svelte';
-  import TerminalSpinner from '$lib/components/TerminalSpinner.svelte';
-  import TerminalCode from '$lib/components/TerminalCode.svelte';
-  import TerminalToast from '$lib/components/TerminalToast.svelte';
-  import TerminalAccordion from '$lib/components/TerminalAccordion.svelte';
+  import TerminalAlert from '../../components/TerminalAlert.svelte';
+  import TerminalTabs from '../../components/TerminalTabs.svelte';
+  import TerminalSelect from '../../components/TerminalSelect.svelte';
+  import TerminalTextarea from '../../components/TerminalTextarea.svelte';
+  import TerminalCheckbox from '../../components/TerminalCheckbox.svelte';
+  import TerminalSpinner from '../../components/TerminalSpinner.svelte';
+  import TerminalCode from '../../components/TerminalCode.svelte';
+  import TerminalToast from '../../components/TerminalToast.svelte';
+  import TerminalAccordion from '../../components/TerminalAccordion.svelte';
 
   // Estados reactivos
   let inputValue = $state("");
